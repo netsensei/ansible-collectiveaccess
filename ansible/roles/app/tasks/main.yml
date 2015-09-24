@@ -1,0 +1,21 @@
+---
+# application tasks to be customized and to run after the main provision
+
+# - name: Install git
+#  apt: name=git state=latest
+
+#- name: Clone Collective Access
+  # git: >
+  #  repo=https://github.com/collectiveaccess/providence
+  #  dest=/vagrant
+  #  update=no
+
+- name: Configure setup.php
+  sudo: yes
+  template: src=setup.tpl dest=/vagrant/setup.php
+
+- name: Set permissions on app/tmp
+  command: chmod +w /vagrant/app/tmp
+
+- name: Set permissions on vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache
+  command: chmod +w /vagrant/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache
