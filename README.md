@@ -25,7 +25,7 @@ You will need a working installation of [Vagrant](https://www.vagrantup.com/) an
 
 ## Install
 
-Clone this repository to your local machine (we assume you have a dedicated workspace folder)
+Clone this repository to your local machine (we assume you have a dedicated workspace folder at `~/Workspace` refer to `Vagrantfile` to change this to a destination of your choice.)
 
 ```bash
 cd ~/Workspace
