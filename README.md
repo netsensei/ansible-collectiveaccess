@@ -35,7 +35,7 @@ git clone https://github.com/netsensei/ansible-collectiveaccess
 Also, clone the [Providence](https://github.com/collectiveaccess/providence) repository to your Workspace folder
 
 ```bash
-git clone https://github.com/collectiveaccess/providence
+git clone https://github.com/collectiveaccess/providence ~/Workspace/collective_access
 ```
 
 Now, go back to the Ansible folder and start Vagrant. Ansible should automatically start provisioning the box with all the necessary dependencies for CollectiveAccess.
