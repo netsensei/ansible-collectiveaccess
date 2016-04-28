@@ -5,7 +5,7 @@ server:
     locale: en_US.UTF-8
 vagrant_local:
     install: '1'
-    vm: { base_box: trusty64, hostname: collectiveaccess, ip: 192.168.2.145, memory: '512', sharedfolder: ~/workspace/collective_access, useVagrantCloud: '1', syncType: nfs }
+    vm: { base_box: trusty64, hostname: collectiveaccess, ip: 192.168.2.145, memory: '1024', sharedfolder: ~/workspace/collective_access, useVagrantCloud: '1', syncType: nfs }
 nginx:
     install: '1'
     docroot: /vagrant
