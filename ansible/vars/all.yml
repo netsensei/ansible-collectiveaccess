@@ -19,8 +19,8 @@ mysql:
     dump: ''
 php:
     install: '1'
-    ppa: php5-5.6
-    packages: [php5-cli, php5-intl, php5-mcrypt, php5-mysql, php5-curl, php5-gd]
+    ppa: php
+    packages: [php5.6, php5.6-cli, php5.6-intl, php5.6-mcrypt, php5.6-mysql, php5.6-curl, php5.6-gd]
 xdebug:
     install: '1'
 composer:
